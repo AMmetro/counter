@@ -1,0 +1,68 @@
+.App {
+   }
+
+.counterArea {
+  width: 500px;
+  height: 500px;
+  margin: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.numberWindow {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  border: 2px solid green;
+  align-items: center;
+  justify-content: center;
+  background-color: darkslateblue;
+}
+
+.buttonWindow {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid green;
+  background-color: darkslateblue;
+  justify-content: space-around;
+}
+
+
+.InpClassDisable {
+  background-color: yellow;
+  color: red;
+  }
+
+.InpClassEnable {
+  background-color: yellowgreen;
+  color: green;
+}
+
+.IncBtnClassEnable {
+  color: green;
+  border-radius: 3px;
+}
+.IncBtnClassDisable {
+  color: red;
+  border-radius: 3px;
+}
+
+.ResetBtnClassEnable {
+  color: green;
+  border-radius: 3px;
+}
+
+.ResetBtnClassDisable {
+  color: red;
+  border-radius: 3px;
+}
+
+
+
+
+
+
+
