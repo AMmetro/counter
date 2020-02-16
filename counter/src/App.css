@@ -1,12 +1,27 @@
 .App {
-   }
+background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
 
-.counterArea {
-  width: 500px;
-  height: 500px;
-  margin: 100px;
+  }
+
+.settingWindow {
+  width: 200px;
+  height: 100px;
+
+  border: 2px solid green;
   align-items: center;
   justify-content: center;
+  background-color: darkslateblue;
+}
+
+
+.counterArea {
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  padding: 20px;
 }
 
 .numberWindow {
@@ -31,15 +46,30 @@
 }
 
 
+
+
+
 .InpClassDisable {
-  background-color: yellow;
+  /*background-color: yellow;*/
   color: red;
+  font-size: 50px;
   }
 
 .InpClassEnable {
-  background-color: yellowgreen;
-  color: green;
+  /*background-color: yellowgreen;*/
+  color: yellowgreen;
+  font-size: 50px;
 }
+
+input{
+  width:100px;
+}
+.setting {
+  color: yellow;
+  font-size: 12px;
+}
+
+
 
 .IncBtnClassEnable {
   color: green;
