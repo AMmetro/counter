@@ -11,7 +11,7 @@ class App extends React.Component {
         startNumber: 0,
         showSet: true,
         ResetBtnDisable: true,
-        IncBtnDisable: false,              // через один сделать
+        IncBtnDisable: false,              // через один сделать!
         options: {
             InpClass: "InpClassEnable",
             IncBtnClass: "IncBtnClassEnable",
